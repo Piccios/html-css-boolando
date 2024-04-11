@@ -110,6 +110,7 @@ p.red{
 
 p.crossed{
     text-decoration: line-through;
+    font-size: small;
 }
 
 span.favourite-tag{
@@ -120,6 +121,10 @@ span.favourite-tag{
     background-color: white;
     margin: 0 auto;
     padding: 0 0.5rem;
+}
+
+span.favourite-tag:hover{
+    color: red;
 }
 
 span.tag{
