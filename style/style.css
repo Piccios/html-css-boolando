@@ -75,10 +75,22 @@ section.products > article{
     height: 450px;
 }
 
-article.product > img{
+img.first-photo{
+    position: absolute;
     height: 450px;
     width: 100%;
     object-fit: cover;
+}
+
+img.first-photo:hover{
+    opacity: 0;
+}
+
+img.alt-photo{
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+    
 }
 
 span.favourite-tag{
