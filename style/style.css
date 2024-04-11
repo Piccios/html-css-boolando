@@ -29,11 +29,11 @@ main{
 footer{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #1a1a1a;
     color: white;
     max-width: 100%;
-    padding: 1rem;
+    padding: 2rem 10rem;
 }
 
 section.logo > img{
@@ -140,25 +140,26 @@ span.discount{
 
 span.green{
     bottom: 30px;
-    left: 45px;
+    left: 50px;
     color: white;
     background-color: green;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 section.company > h3{
     text-align: start;
+}
 
+h4{
+    font-size: 0.8rem;
+    text-align: start;
+    margin-left: 0.3rem;
+    
+}
+
+section.social > span{
+    display: inline-block;
+    padding: 0.3rem 0.2rem;
+    font-size: 1.2rem;
 }
 
 
