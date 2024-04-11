@@ -68,6 +68,29 @@ span.favourite-tag{
     padding: 0 0.5rem;
 }
 
+span.tag{
+    position: absolute;
+    margin: 0 auto;
+    padding: 0 0.5rem;
+    font-size: 0.7rem;
 
+}
+
+span.discount{
+    color: white;
+    bottom: 20px;
+    left: 0;
+    background-color: red;
+
+}
+
+
+span.green{
+    bottom: 20px;
+    left: 45px;
+    color: white;
+    background-color: green;
+
+}
 
 
