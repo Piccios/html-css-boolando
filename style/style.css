@@ -12,7 +12,7 @@ body{
 header{
     background-color: #ff6900;
     max-width: 100%;
-    padding: 1rem;
+    padding: 0.5rem;
     color: white;
     display: flex;
     flex-direction: row;
@@ -61,11 +61,10 @@ nav li{
     font-weight: bold;
 }
 
-
 section.products{
     display: flex;
     justify-content: space-around;
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
 }
 
 section.products > article{
@@ -94,7 +93,23 @@ img.alt-photo{
 }
 
 section.description{
+    text-align: start;
 
+}
+
+h2.brand{
+    color: #78838c;
+    font-size: small;
+}
+
+p.red{
+    color: red;
+    font-size: small;
+    font-weight: bolder;
+}
+
+p.crossed{
+    text-decoration: line-through;
 }
 
 span.favourite-tag{
@@ -117,14 +132,14 @@ span.tag{
 
 span.discount{
     color: white;
-    bottom: 20px;
+    bottom: 30px;
     left: 0;
     background-color: red;
 
 }
 
 span.green{
-    bottom: 20px;
+    bottom: 30px;
     left: 45px;
     color: white;
     background-color: green;
