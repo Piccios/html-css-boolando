@@ -57,6 +57,9 @@ li{
     padding: 1rem 0;
 }
 
+nav li{
+    font-weight: bold;
+}
 
 
 section.products{
@@ -91,9 +94,9 @@ span.favourite-tag{
 span.tag{
     position: absolute;
     margin: 0 auto;
-    padding: 0 0.5rem;
+    padding: 0.3rem 0.5rem;
     font-size: 0.7rem;
-
+    font-weight: bold;
 }
 
 span.discount{
