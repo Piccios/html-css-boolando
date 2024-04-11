@@ -94,8 +94,17 @@ img.alt-photo{
 
 section.description{
     text-align: start;
-
 }
+
+div.price{
+    display: flex;
+    flex-direction: row;
+}
+
+div p{
+    padding: 0 0.5rem 0 0;
+}
+
 
 h2.brand{
     color: #78838c;
@@ -106,11 +115,15 @@ p.red{
     color: red;
     font-size: small;
     font-weight: bolder;
+    display: flex;
+    flex-direction: row;
 }
 
 p.crossed{
     text-decoration: line-through;
     font-size: small;
+    display: flex;
+    flex-direction: row;
 }
 
 span.favourite-tag{
